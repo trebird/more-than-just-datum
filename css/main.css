@@ -10,8 +10,15 @@ header {
   background-color: #ddd;
 }
 
-.search-input {
-  background-image: url(images/search.svg);
+.nearest {
+  background-color: #efefef
+}
+
+.one,
+.two,
+.three {
+  background-color: #fff;
+  border-radius: 10px;
 }
 
 table {
