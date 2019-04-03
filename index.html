@@ -13,67 +13,96 @@
 <body>
 
   <header class="masthead grid grid-middle pad-b island-1-4">
-    <div class="unit xs-1 m-1-4 island-1-4 push-1-16">
+
+    <div class="unit xs-1 m-1-2 island-1-4 push-1-16">
       <img src="images/logo.svg" alt="">
     </div>
 
-    <div class="unit xs-1 m-3-4 pad-t-1-4">
+    <div class="unit xs-1 m-1-2 pad-t-1-4">
       <form class="island-1-4" action="#" method="post">
         <div class="search">
           <div class="pad-t-1-16">
-            <label for="search"></label>
-            <input class="search-input" type="search" id="search" required>
+            <label for="search">Playground Finder Search</label>
+            <input class="search" type="search" id="search" required>
           </div>
         </div>
       </form>
     </div>
+
   </header>
 
   <main class="grid">
 
-    <div class="unit xs-1 gutter-1-2 nearest">
+    <div class="unit xs-1 s-1 m-1-3 l- gutter-1-2 nearest">
       <h1 class="giga bold pad-t-1-2 push-1-2">Nearest playgrounds</h1>
       <ul class="list-group push-1-2">
-        <li>
-          <ul class="list-group one island-1-2 push-1-2 kilo">
-            <li class="mega bold">373</li>
-            <li class="milli italic">Distance</li>
-            <li class="kilo">0.75 km</li>
-          </ul>
+
+        <li class="one push-1-2 island-1-2">
+          <div>
+            <h2 class="mega bold push-0">373</h2>
+            <div class="grid list-grid">
+
+              <div class="unit xs-1 s-1-2 m-1">
+                <p class="milli italic push-0">Distance</p>
+              </div>
+
+              <div class="unit xs-1 s-1-2 m-1">
+                <p class="kilo push-0">0.75 km</p>
+              </div>
+            </div>
+          </div>
         </li>
-        <li>
-          <ul class="list-group two island-1-2 push-1-2 kilo">
-            <li class="mega bold">1700</li>
-            <li class="milli italic">Distance</li>
-            <li class="kilo">2.58 km</li>
-          </ul>
+
+        <li class="two push-1-2 island-1-2">
+          <div>
+            <h2 class="mega bold push-0">1700</h2>
+            <div class="grid list-grid">
+
+              <div class="unit xs-1 s-1-2 m-1">
+                <p class="milli italic push-0">Distance</p>
+              </div>
+
+              <div class="unit xs-1 s-1-2 m-1">
+                <p class="kilo push-0">2.58 km</p>
+              </div>
+            </div>
+          </div>
         </li>
-        <li>
-          <ul class="list-group three island-1-2 push-1-2 kilo">
-            <li class="mega bold">960</li>
-            <li class="milli italic">Distance</li>
-            <li class="kilo">3.03 km</li>
-          </ul>
+
+        <li class="three push-1-2 island-1-2">
+          <div>
+            <h2 class="mega bold push-0">960</h2>
+            <div class="grid list-grid">
+
+              <div class="unit xs-1 s-1-2 m-1">
+                <p class="milli italic push-0">Distance</p>
+              </div>
+
+              <div class="unit xs-1 s-1-2 m-1">
+                <p class="kilo push-0">3.03 km</p>
+              </div>
+            </div>
+          </div>
         </li>
       </ul>
     </div>
 
-    <div class="unit gutter pad-t-1-2 wrapper">
-      <h2 class="giga bold">Playgrounds in the city</h2>
+    <div class="unit xs-1 s-1 m-2-3 l- gutter-1-2 pad-t-1-2">
+      <h2 class="giga bold push-0 gutter-1-4 pad-b-1-8">Playgrounds in the city</h2>
 
-      <div class="table-wrapper scrollable">
-        <table class="push-0">
-          <caption>Playground Finder</caption>
+      <div class="scrollable">
+        <table class="push-1-2">
+          <caption class="push-1-2"></caption>
           <thead>
-            <tr>
-              <th class="id island-0" scope="col">Park ID</th>
-              <th class="type island-0" scope="col">Park type</th>
-              <th class="age island-0" scope="col">Age group</th>
-              <th class="notes island-0" scope="col">Swings</th>
-              <th class="notes island-0" scope="col">Slides</th>
-              <th class="notes island-0" scope="col">Seesaws</th>
-              <th class="notes island-0" scope="col">Sandboxes</th>
-              <th class="notes island-0" scope="col">Playhouses</th>
+            <tr class="pad-t-1-16">
+              <th class="id" scope="col">Park ID</th>
+              <th class="type" scope="col">Park type</th>
+              <th class="age" scope="col">Age group</th>
+              <th class="notes" scope="col">Swings</th>
+              <th class="notes" scope="col">Slides</th>
+              <th class="notes" scope="col">Seesaws</th>
+              <th class="notes" scope="col">Sandboxes</th>
+              <th class="notes" scope="col">Playhouses</th>
             </tr>
           </thead>
 
@@ -179,7 +208,7 @@
 
             <tr>
               <th scope="row">1700</th>
-              <td>Play area</td>
+              <td>Play Structure</td>
               <td>Junior</td>
               <td>No</td>
               <td>No</td>
@@ -190,7 +219,7 @@
 
             <tr>
               <th scope="row">1213</th>
-              <td>Play area</td>
+              <td>Play Structure</td>
               <td>Toddler</td>
               <td>No</td>
               <td>No</td>

@@ -3,7 +3,7 @@ html {
 }
 
 img {
-  width: 200px;
+  max-width: 200px;
 }
 
 header {
@@ -11,7 +11,15 @@ header {
 }
 
 .nearest {
-  background-color: #efefef
+  background-color: #efefef;
+}
+
+.list-grid {
+  width: 100%;
+}
+
+label {
+  display: none;
 }
 
 .one,
@@ -21,12 +29,21 @@ header {
   border-radius: 3px;
 }
 
+table {
+  min-width: 200px;
+}
+
+
 th {
   width: 6em;
 }
 
-.type {
-  width: 8em;
+@media only screen and (min-width: 38em) {
+
+  .th {
+    width: 8em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
