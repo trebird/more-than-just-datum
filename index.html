@@ -8,21 +8,21 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700" rel="stylesheet">
 </head>
 <body>
 
-  <header class="masthead grid grid-middle pad-b push">
-    <div class="unit xs-1 m-1-4 island-1-4">
+  <header class="masthead grid grid-middle pad-b island-1-4">
+    <div class="unit xs-1 m-1-4 island-1-4 push-1-16">
       <img class="" src="images/logo.svg" alt="">
     </div>
 
-    <div class="unit xs-1 m-3-4">
+    <div class="unit xs-1 m-3-4 pad-t-1-4">
       <form class="island-1-4" action="#" method="post">
         <div class="search">
-          <div class="">
+          <div class="pad-t-1-16">
             <label for="search"></label>
-            <input class="search-input" type="search" id="search">
+            <input class="search-input" type="search" id="search" required>
           </div>
         </div>
       </form>
@@ -32,35 +32,35 @@
   <main class="grid">
 
     <div class="nearest unit xs-1 gutter-1-2">
-      <h1>Nearest Playgrounds</h1>
-      <ul class="list-group">
+      <h2 class="giga bold pad-t-1-2 push-1-2">Nearest playgrounds</h2>
+      <ul class="list-group push-1-2">
         <li>
-          <ul class="list-group one island-1-2">
-            <li class="bold">373</li>
-            <li class="italic nano">Distance</li>
-            <li class="">0.75 km</li>
+          <ul class="list-group one island-1-2 push-1-2 kilo">
+            <li class="mega bold">373</li>
+            <li class="milli italic">Distance</li>
+            <li class="kilo">0.75 km</li>
           </ul>
         </li>
         <li>
-          <ul class="list-group two island-1-2">
-            <li class="bold">1700</li>
-            <li class="italic nano">Distance</li>
-            <li class="">2.58 km</li>
+          <ul class="list-group two island-1-2 push-1-2 kilo">
+            <li class="mega bold">1700</li>
+            <li class="milli italic">Distance</li>
+            <li class="kilo">2.58 km</li>
           </ul>
         </li>
         <li>
-          <ul class="list-group three island-1-2">
-            <li class="bold">960</li>
-            <li class="italic nano">Distance</li>
-            <li class="">3.03 km</li>
+          <ul class="list-group three island-1-2 push-1-2 kilo">
+            <li class="mega bold">960</li>
+            <li class="milli italic">Distance</li>
+            <li class="kilo">3.03 km</li>
           </ul>
         </li>
       </ul>
     </div>
 
-    <div class="unit">
-        <div class="wrapper">
-          <h1>Playgrounds in the city</h1>
+    <div class="unit gutter-1-2">
+      <div class="wrapper">
+        <h2 class="giga bold pad-t-1-2">Playgrounds in the city</h2>
 
           <div class="table-wrapper scrollable">
           <table class="push-0">
@@ -127,5 +127,7 @@
       </div>
     </div>
 
+  </main>
 
-</main>
+</body>
+</html>

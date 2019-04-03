@@ -18,24 +18,9 @@ header {
 .two,
 .three {
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 3px;
 }
 
 table {
   border-collapse: collapse;
-}
-
-td, tr, th {
-  border: solid 1px #ccc;
-}
-
-td {
-  height: 8.7em;
-}
-
-.event-grey {
-  border: solid 1px #666;
-  border-radius: 8px;
-  background-color: #f2f2f2;
-  color: #333;
 }
