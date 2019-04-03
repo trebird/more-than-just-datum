@@ -21,6 +21,18 @@ header {
   border-radius: 3px;
 }
 
-table {
-  border-collapse: collapse;
+th {
+  width: 6em;
+}
+
+.type {
+  width: 8em;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .table-wrapper {
+    overflow: visible;
+  }
+
 }
